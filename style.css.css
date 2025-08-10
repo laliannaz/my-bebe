@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #fff0f5;
+  overflow-x: hidden;
+}
+
+.cover, .letter {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.cover {
+  display: flex;
+  background: linear-gradient(to bottom, #ffe6f0, #ffe0f0);
+}
+
+.cover-photo {
+  max-width: 320px;
+  max-height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #d6336c;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  background-color: #ff85a2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff5f8a;
+}
+
+.letter {
+  display: none;
+  background: linear-gradient(to bottom, #fff0f5, #fce1f2);
+}
+
+.letter h2 {
+  color: #c2185b;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.letter p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  color: #4a0033;
+  margin-bottom: 20px;
+}
+
+.tulips {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: url('https://i.ibb.co/X7X8vbd/tulips.png') repeat-x bottom;
+  background-size: contain;
+}
